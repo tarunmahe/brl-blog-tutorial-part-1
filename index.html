@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Make a Blog Tutorial">
+		<meta name="author" content="Jeff Kelley">
+		<title>Blog Tutoria</title>
+		<link rel="stylesheet"  type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/firebase/firebase.js"></script>
+		<script src="bower_components/angularfire/dist/angularfire.js"></script>
+		<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+		<script src="bower_components/showdown/src/showdown.js"></script>
+		<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+		<script src="bower_components/angular-markdown-directive/markdown.js"></script>
+		<script src="app.js"></script>
+		<script src="home/home.controller.js"></script>
+		<script src="admin/admin.controller.js"></script>
+	</head>
+	<body ng-app="app">
+		<div class="container">
+			<div class="jumbotron">
+				<div class="container">
+					<h1>Blog Tutorial</h1>
+					<h3>by Jeff Kelley</h3>
+				</div>
+			</div>
+			<div class="container-fluid" ui-view>
+				
+			</div>
+		</div>
+	</body>
+</html>
